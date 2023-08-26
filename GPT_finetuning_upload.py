@@ -46,7 +46,7 @@ def exec_fine_tuning(file_id):
     )
 
 def main():
-    file_name = "data/finetuning_cat_CKD.jsonl"
+    file_name = "finetuning_train.jsonl"
     file_id = upload_training_data_to_openai(file_name)
     print('file_id is', file_id)
     exec_fine_tuning(file_id)
