@@ -39,7 +39,7 @@ def exec_fine_tuning(file_id):
     return openai.FineTuningJob.create(
         training_file=file_id,
         model="gpt-3.5-turbo",
-        suffix="cat_CKD",
+        suffix="ISandT",
         hyperparameters={
             "n_epochs": 6
         }
