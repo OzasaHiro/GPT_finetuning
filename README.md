@@ -4,4 +4,6 @@
 
 2.作成した.jsonlファイル使ってGPT_finetuning_upload.py　でアップロードしてfine tuningする。
 
-3.OpenAIからメールくるのを待つ。
+3.OpenAIから完了メールくるのを待つ。
+
+4.メールの中にモデル名称記載されてるので、それを使う。またはPlaygroundで試してみる。
